@@ -10,7 +10,7 @@ node ('') {
                 def k8sImage = docker.image('govndgiri2021/androidapp:latest')
                 k8sImage.inside("-u 0:0 --entrypoint=''") {
                     
-                    dir("android") {
+                    dir("AccessingGoogleDrive") {
                           //sh 'sudo npm install -g react-native-cli'
                          // sh 'npm install'
                          // sh 'npm i -f'
